@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace GoCardlessSDK\Collections\OutboundPayment\ImportMultiResource\Response;
 
+/** @extends \Dmorenof\SdkRuntime\TypedArray<\GoCardlessSDK\DTOs\OutboundPayment\Import> */
 final class PaymentImportsCollection extends \Dmorenof\SdkRuntime\TypedArray
 {
     protected string $expected_type = \GoCardlessSDK\DTOs\OutboundPayment\Import::class;

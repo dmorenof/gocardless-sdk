@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace GoCardlessSDK\DTOs\Payouts\Get\Query;
 
+/** @extends \Dmorenof\SdkRuntime\Map<string> */
 final class QueryMetadataMap extends \Dmorenof\SdkRuntime\Map
 {
     protected const string VALUE_TYPE = 'string';
