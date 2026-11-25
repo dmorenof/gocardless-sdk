@@ -1,0 +1,13 @@
+<?php
+
+declare(strict_types=1);
+
+namespace GoCardlessSDK\Enums\OutboundPayment\Verifications\RecipientBankAccountHolderVerification;
+
+enum ResultEnum: string
+{
+    case FullMatch = 'full_match';
+    case NoMatch = 'no_match';
+    case PartialMatch = 'partial_match';
+    case UnableToMatch = 'unable_to_match';
+}
