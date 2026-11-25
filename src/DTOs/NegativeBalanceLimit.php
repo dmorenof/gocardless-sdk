@@ -13,12 +13,12 @@ namespace GoCardlessSDK\DTOs;
 final class NegativeBalanceLimit extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'balance_limit',
-    'created_at',
-    'currency',
-    'id',
-    'links',
-];
+        'balance_limit',
+        'created_at',
+        'currency',
+        'id',
+        'links',
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

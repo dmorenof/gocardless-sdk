@@ -197,5 +197,4 @@ final class SchemeIdentifiers extends \GoCardlessSDK\Client
         $result = $this->executeArguments(self::operation(self::GET_BY_SCHEME_IDENTIFIER_ID), path: ['scheme_identifier_id' => $scheme_identifier_id], parameters: $params);
         return $result;
     }
-
 }

@@ -7,5 +7,4 @@ namespace GoCardlessSDK\Requests\Subscriptions\BySubscriptionId\Actions\Cancel\P
 final class CancelSubscriptionsRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public \GoCardlessSDK\DTOs\Customer\Metadata $metadata;
-
 }

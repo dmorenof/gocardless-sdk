@@ -10,9 +10,9 @@ namespace GoCardlessSDK\DTOs\Customer;
 final class NotificationLinks extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'customer',
-    'event',
-];
+        'customer',
+        'event',
+    ];
 
     /**
      * The customer who should be contacted with this notification.

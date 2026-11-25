@@ -68,5 +68,4 @@ final class Confirm extends \GoCardlessSDK\Client
         $result = $this->executeArguments(self::operation(self::POST), path: ['payer_authorisation_id' => $payer_authorisation_id], parameters: $params);
         return $result;
     }
-
 }

@@ -18,5 +18,4 @@ final class SelectInstitution extends \GoCardlessSDK\GoCardlessAPISDK
     {
         return self::client()->resource(\GoCardlessSDK\Resources\BillingRequests\ByBillingRequestId\Actions\SelectInstitution::class)->post($billing_request_id, $params);
     }
-
 }

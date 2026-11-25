@@ -22,5 +22,4 @@ final class Cancel extends \GoCardlessSDK\GoCardlessAPISDK
     {
         return self::client()->resource(\GoCardlessSDK\Resources\Subscriptions\BySubscriptionId\Actions\Cancel::class)->post($subscription_id, $params);
     }
-
 }

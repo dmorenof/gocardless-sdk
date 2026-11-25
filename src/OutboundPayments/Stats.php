@@ -16,5 +16,4 @@ final class Stats extends \GoCardlessSDK\GoCardlessAPISDK
     {
         return self::client()->resource(\GoCardlessSDK\Resources\OutboundPayments\Stats::class)->get($params);
     }
-
 }

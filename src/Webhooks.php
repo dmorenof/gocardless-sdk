@@ -27,5 +27,4 @@ final class Webhooks extends \GoCardlessSDK\GoCardlessAPISDK
     {
         return self::client()->resource(\GoCardlessSDK\Resources\Webhooks::class)->getByWebhookId($webhook_id, $params);
     }
-
 }

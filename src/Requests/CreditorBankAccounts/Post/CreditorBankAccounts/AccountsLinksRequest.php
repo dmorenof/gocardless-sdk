@@ -7,8 +7,8 @@ namespace GoCardlessSDK\Requests\CreditorBankAccounts\Post\CreditorBankAccounts;
 final class AccountsLinksRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'creditor',
-];
+        'creditor',
+    ];
 
     /**
      * ID of the [creditor](https://docs.gocardless.com/docs/api-reference/creditor) that owns this bank account.

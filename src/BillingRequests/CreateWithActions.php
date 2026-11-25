@@ -24,5 +24,4 @@ final class CreateWithActions extends \GoCardlessSDK\GoCardlessAPISDK
     {
         return self::client()->resource(\GoCardlessSDK\Resources\BillingRequests\CreateWithActions::class)->post($params);
     }
-
 }

@@ -10,9 +10,9 @@ namespace GoCardlessSDK\DTOs\OutboundPayment\ImportEntryMultiResource\Response;
 final class MetaDTO extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'cursors',
-    'limit',
-];
+        'cursors',
+        'limit',
+    ];
 
     public \GoCardlessSDK\DTOs\OutboundPayment\ImportEntryMultiResource\Response\Meta\CursorsDTO $cursors;
     /**

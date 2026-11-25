@@ -121,5 +121,4 @@ final class MandateImports extends \GoCardlessSDK\Client
         $result = $this->executeArguments(self::operation(self::GET_BY_MANDATE_IMPORT_ID), path: ['mandate_import_id' => $mandate_import_id], parameters: $params);
         return $result;
     }
-
 }

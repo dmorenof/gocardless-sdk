@@ -7,10 +7,10 @@ namespace GoCardlessSDK\Requests\Creditors\Post;
 final class CreditorsCreditorsRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'country_code',
-    'creditor_type',
-    'name',
-];
+        'country_code',
+        'creditor_type',
+        'name',
+    ];
 
     /**
      * Prefix for the bank reference of payouts sent to this creditor. For instance, if

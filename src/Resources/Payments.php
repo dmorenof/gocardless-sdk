@@ -236,5 +236,4 @@ final class Payments extends \GoCardlessSDK\Client
         $result = $this->executeArguments(self::operation(self::PUT_BY_PAYMENT_ID), path: ['payment_id' => $payment_id], parameters: $params);
         return $result;
     }
-
 }

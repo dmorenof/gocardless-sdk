@@ -68,5 +68,4 @@ final class Handle extends \GoCardlessSDK\Client
         $result = $this->executeArguments(self::operation(self::POST), path: ['customer_notification_id' => $customer_notification_id], parameters: $params);
         return $result;
     }
-
 }

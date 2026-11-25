@@ -25,5 +25,4 @@ final class Resources extends \Dmorenof\SdkRuntime\DTO
      * Embedded mandate, only once the mandate request has been fulfilled
      */
     public \GoCardlessSDK\DTOs\BillingRequest\Resources\MandateDTO $mandate;
-
 }

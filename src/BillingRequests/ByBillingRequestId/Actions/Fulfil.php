@@ -17,5 +17,4 @@ final class Fulfil extends \GoCardlessSDK\GoCardlessAPISDK
     {
         return self::client()->resource(\GoCardlessSDK\Resources\BillingRequests\ByBillingRequestId\Actions\Fulfil::class)->post($billing_request_id, $params);
     }
-
 }

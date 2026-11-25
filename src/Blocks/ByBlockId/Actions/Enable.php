@@ -16,5 +16,4 @@ final class Enable extends \GoCardlessSDK\GoCardlessAPISDK
     {
         return self::client()->resource(\GoCardlessSDK\Resources\Blocks\ByBlockId\Actions\Enable::class)->post($block_id, $params);
     }
-
 }

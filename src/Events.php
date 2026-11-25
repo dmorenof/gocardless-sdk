@@ -28,5 +28,4 @@ final class Events extends \GoCardlessSDK\GoCardlessAPISDK
     {
         return self::client()->resource(\GoCardlessSDK\Resources\Events::class)->getByEventId($event_id, $params);
     }
-
 }

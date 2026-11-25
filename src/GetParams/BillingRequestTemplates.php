@@ -7,27 +7,27 @@ namespace GoCardlessSDK\GetParams;
 final class BillingRequestTemplates extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'GoCardlessVersion',
-];
+        'GoCardlessVersion',
+    ];
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [
-        'after' => 'after',
-        'before' => 'before',
-        'limit' => 'limit',
-        'payment_request_scheme' => 'payment_request_scheme',
-    ],
-    'header' => [
-        'GoCardless-Version' => 'GoCardlessVersion',
-    ],
-];
+        'path' => [],
+        'query' => [
+            'after' => 'after',
+            'before' => 'before',
+            'limit' => 'limit',
+            'payment_request_scheme' => 'payment_request_scheme',
+        ],
+        'header' => [
+            'GoCardless-Version' => 'GoCardlessVersion',
+        ],
+    ];
 
     protected const array PROPERTY_MAP = [
-    'GoCardless-Version' => 'GoCardlessVersion',
-];
+        'GoCardless-Version' => 'GoCardlessVersion',
+    ];
     protected const array WIRE_PROPERTY_MAP = [
-    'GoCardlessVersion' => 'GoCardless-Version',
-];
+        'GoCardlessVersion' => 'GoCardless-Version',
+    ];
 
     public string $GoCardlessVersion;
     public ?string $after;

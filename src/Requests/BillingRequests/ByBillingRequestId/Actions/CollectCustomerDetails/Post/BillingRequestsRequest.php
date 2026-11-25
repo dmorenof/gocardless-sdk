@@ -8,5 +8,4 @@ final class BillingRequestsRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public \GoCardlessSDK\Requests\BillingRequests\ByBillingRequestId\Actions\CollectCustomerDetails\Post\BillingRequests\RequestsCustomerRequest $customer;
     public \GoCardlessSDK\Requests\BillingRequests\ByBillingRequestId\Actions\CollectCustomerDetails\Post\BillingRequests\BillingDetailRequest $customer_billing_detail;
-
 }

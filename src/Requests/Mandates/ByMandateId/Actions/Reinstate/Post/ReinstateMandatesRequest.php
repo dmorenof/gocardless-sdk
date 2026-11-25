@@ -7,5 +7,4 @@ namespace GoCardlessSDK\Requests\Mandates\ByMandateId\Actions\Reinstate\Post;
 final class ReinstateMandatesRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public \GoCardlessSDK\DTOs\Customer\Metadata $metadata;
-
 }

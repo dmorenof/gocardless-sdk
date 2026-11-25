@@ -7,9 +7,9 @@ namespace GoCardlessSDK\Requests\BillingRequests\ByBillingRequestId\Actions\Sele
 final class BillingRequestsRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'country_code',
-    'institution',
-];
+        'country_code',
+        'institution',
+    ];
 
     /**
      * [ISO 3166-1](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements) alpha-2 code. The country code of the institution. If nothing is provided, institutions with the country code 'GB' are returned by default.

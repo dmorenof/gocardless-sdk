@@ -191,5 +191,4 @@ final class PayerAuthorisations extends \GoCardlessSDK\Client
         $result = $this->executeArguments(self::operation(self::PUT_BY_PAYER_AUTHORISATION_ID), path: ['payer_authorisation_id' => $payer_authorisation_id], parameters: $params);
         return $result;
     }
-
 }

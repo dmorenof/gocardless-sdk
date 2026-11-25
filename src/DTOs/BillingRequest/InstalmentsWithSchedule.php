@@ -15,10 +15,10 @@ namespace GoCardlessSDK\DTOs\BillingRequest;
 final class InstalmentsWithSchedule extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'amounts',
-    'interval',
-    'interval_unit',
-];
+        'amounts',
+        'interval',
+        'interval_unit',
+    ];
 
     /**
      * List of amounts of each instalment, in the lowest denomination for the

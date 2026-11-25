@@ -25,11 +25,11 @@ namespace GoCardlessSDK\DTOs\Payout;
 final class Item extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'amount',
-    'links',
-    'taxes',
-    'type',
-];
+        'amount',
+        'links',
+        'taxes',
+        'type',
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

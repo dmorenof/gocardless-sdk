@@ -12,9 +12,9 @@ namespace GoCardlessSDK\DTOs\Payout;
 final class ItemPaginationMeta extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'cursors',
-    'limit',
-];
+        'cursors',
+        'limit',
+    ];
 
     public \GoCardlessSDK\DTOs\Payout\ItemPaginationMeta\CursorsDTO $cursors;
     /**

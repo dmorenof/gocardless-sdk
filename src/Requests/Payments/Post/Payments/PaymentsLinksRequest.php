@@ -7,8 +7,8 @@ namespace GoCardlessSDK\Requests\Payments\Post\Payments;
 final class PaymentsLinksRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'mandate',
-];
+        'mandate',
+    ];
 
     /**
      * ID of the [mandate](https://docs.gocardless.com/docs/api-reference/mandate) against which this payment should be collected.

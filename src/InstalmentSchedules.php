@@ -38,5 +38,4 @@ final class InstalmentSchedules extends \GoCardlessSDK\GoCardlessAPISDK
     {
         return self::client()->resource(\GoCardlessSDK\Resources\InstalmentSchedules::class)->putByInstalmentScheduleId($instalment_schedule_id, $params);
     }
-
 }

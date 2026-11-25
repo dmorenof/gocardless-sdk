@@ -7,8 +7,8 @@ namespace GoCardlessSDK\Requests\OutboundPayments\Post\OutboundPayments;
 final class PaymentsLinksRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'recipient_bank_account',
-];
+        'recipient_bank_account',
+    ];
 
     /**
      * ID of the creditor who sends the outbound payment.

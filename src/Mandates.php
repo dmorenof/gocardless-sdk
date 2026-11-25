@@ -55,5 +55,4 @@ final class Mandates extends \GoCardlessSDK\GoCardlessAPISDK
     {
         return self::client()->resource(\GoCardlessSDK\Resources\Mandates::class)->putByMandateId($mandate_id, $params);
     }
-
 }

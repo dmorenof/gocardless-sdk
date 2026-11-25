@@ -7,46 +7,46 @@ namespace GoCardlessSDK\Requests\MandateImportEntries\Post\MandateImportEntries;
 final class EntriesCustomerRequest extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'address_line2' => [
-        'maxLength' => 255,
-    ],
-    'address_line3' => [
-        'maxLength' => 255,
-    ],
-    'city' => [
-        'maxLength' => 255,
-    ],
-    'company_name' => [
-        'maxLength' => 255,
-    ],
-    'country_code' => [
-        'maxLength' => 2,
-    ],
-    'danish_identity_number' => [
-        'maxLength' => 10,
-    ],
-    'email' => [
-        'maxLength' => 255,
-    ],
-    'family_name' => [
-        'maxLength' => 255,
-    ],
-    'given_name' => [
-        'maxLength' => 255,
-    ],
-    'language' => [
-        'maxLength' => 2,
-    ],
-    'phone_number' => [
-        'maxLength' => 30,
-    ],
-    'region' => [
-        'maxLength' => 255,
-    ],
-    'swedish_identity_number' => [
-        'maxLength' => 12,
-    ],
-];
+        'address_line2' => [
+            'maxLength' => 255,
+        ],
+        'address_line3' => [
+            'maxLength' => 255,
+        ],
+        'city' => [
+            'maxLength' => 255,
+        ],
+        'company_name' => [
+            'maxLength' => 255,
+        ],
+        'country_code' => [
+            'maxLength' => 2,
+        ],
+        'danish_identity_number' => [
+            'maxLength' => 10,
+        ],
+        'email' => [
+            'maxLength' => 255,
+        ],
+        'family_name' => [
+            'maxLength' => 255,
+        ],
+        'given_name' => [
+            'maxLength' => 255,
+        ],
+        'language' => [
+            'maxLength' => 2,
+        ],
+        'phone_number' => [
+            'maxLength' => 30,
+        ],
+        'region' => [
+            'maxLength' => 255,
+        ],
+        'swedish_identity_number' => [
+            'maxLength' => 12,
+        ],
+    ];
 
     /**
      * The first line of the customer's address. Required if mandate import scheme is either `bacs` or `sepa`.

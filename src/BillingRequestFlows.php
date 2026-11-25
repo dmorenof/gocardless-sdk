@@ -16,5 +16,4 @@ final class BillingRequestFlows extends \GoCardlessSDK\GoCardlessAPISDK
     {
         return self::client()->resource(\GoCardlessSDK\Resources\BillingRequestFlows::class)->post($params);
     }
-
 }

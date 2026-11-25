@@ -18,5 +18,4 @@ final class BlockByRef extends \GoCardlessSDK\GoCardlessAPISDK
     {
         return self::client()->resource(\GoCardlessSDK\Resources\Blocks\BlockByRef::class)->post($params);
     }
-
 }

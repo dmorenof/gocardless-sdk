@@ -20,5 +20,4 @@ final class TransferredMandates extends \GoCardlessSDK\GoCardlessAPISDK
     {
         return self::client()->resource(\GoCardlessSDK\Resources\TransferredMandates::class)->getByMandateId($mandate_id, $params);
     }
-
 }

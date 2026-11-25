@@ -30,5 +30,4 @@ final class Resume extends \GoCardlessSDK\GoCardlessAPISDK
     {
         return self::client()->resource(\GoCardlessSDK\Resources\Subscriptions\BySubscriptionId\Actions\Resume::class)->post($subscription_id, $params);
     }
-
 }

@@ -17,5 +17,4 @@ final class Initialise extends \GoCardlessSDK\GoCardlessAPISDK
     {
         return self::client()->resource(\GoCardlessSDK\Resources\BillingRequestFlows\ByBillingRequestFlowId\Actions\Initialise::class)->post($billing_request_flow_id, $params);
     }
-
 }

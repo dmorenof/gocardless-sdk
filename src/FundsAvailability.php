@@ -19,5 +19,4 @@ final class FundsAvailability extends \GoCardlessSDK\GoCardlessAPISDK
     {
         return self::client()->resource(\GoCardlessSDK\Resources\FundsAvailability::class)->getByMandateId($mandate_id, $params);
     }
-
 }

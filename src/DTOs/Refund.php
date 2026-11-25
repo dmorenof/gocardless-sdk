@@ -14,16 +14,16 @@ namespace GoCardlessSDK\DTOs;
 final class Refund extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'amount',
-    'created_at',
-    'currency',
-    'fx',
-    'id',
-    'links',
-    'metadata',
-    'reference',
-    'status',
-];
+        'amount',
+        'created_at',
+        'currency',
+        'fx',
+        'id',
+        'links',
+        'metadata',
+        'reference',
+        'status',
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

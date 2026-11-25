@@ -7,9 +7,9 @@ namespace GoCardlessSDK\Requests\SchemeIdentifiers\Post;
 final class SchemeIdentifiersRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'name',
-    'scheme',
-];
+        'name',
+        'scheme',
+    ];
 
     public \GoCardlessSDK\Requests\SchemeIdentifiers\Post\SchemeIdentifiers\IdentifiersLinksRequest $links;
     /**

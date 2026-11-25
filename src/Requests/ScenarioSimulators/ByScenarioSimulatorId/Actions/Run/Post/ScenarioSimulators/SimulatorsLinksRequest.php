@@ -7,8 +7,8 @@ namespace GoCardlessSDK\Requests\ScenarioSimulators\ByScenarioSimulatorId\Action
 final class SimulatorsLinksRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'resource',
-];
+        'resource',
+    ];
 
     /**
      * ID of the resource to run the simulation against.

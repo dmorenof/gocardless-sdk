@@ -12,14 +12,14 @@ namespace GoCardlessSDK\DTOs\VerificationDetail;
 final class Director extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'city',
-    'country_code',
-    'date_of_birth',
-    'family_name',
-    'given_name',
-    'postal_code',
-    'street',
-];
+        'city',
+        'country_code',
+        'date_of_birth',
+        'family_name',
+        'given_name',
+        'postal_code',
+        'street',
+    ];
 
     /**
      * The city of the person's address.

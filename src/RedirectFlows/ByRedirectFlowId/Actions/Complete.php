@@ -23,5 +23,4 @@ final class Complete extends \GoCardlessSDK\GoCardlessAPISDK
     {
         return self::client()->resource(\GoCardlessSDK\Resources\RedirectFlows\ByRedirectFlowId\Actions\Complete::class)->post($redirect_flow_id, $params);
     }
-
 }

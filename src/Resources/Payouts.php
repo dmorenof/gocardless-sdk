@@ -171,5 +171,4 @@ final class Payouts extends \GoCardlessSDK\Client
         $result = $this->executeArguments(self::operation(self::PUT_BY_PAYOUT_ID), path: ['payout_id' => $payout_id], parameters: $params);
         return $result;
     }
-
 }

@@ -7,9 +7,9 @@ namespace GoCardlessSDK\Requests\OutboundPayments\Withdrawal\Post;
 final class OutboundPaymentsRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'amount',
-    'scheme',
-];
+        'amount',
+        'scheme',
+    ];
 
     /**
      * Amount, in the lowest denomination for the currency (e.g. pence in GBP, cents in EUR).

@@ -7,9 +7,9 @@ namespace GoCardlessSDK\Requests\InstalmentSchedules\CreateWithDates\Post\Instal
 final class SchedulesInstalmentsRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'amount',
-    'charge_date',
-];
+        'amount',
+        'charge_date',
+    ];
 
     public \GoCardlessSDK\DTOs\Payment\AnyOfAmountStringable $amount;
     /**

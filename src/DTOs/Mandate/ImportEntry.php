@@ -30,17 +30,17 @@ namespace GoCardlessSDK\DTOs\Mandate;
 final class ImportEntry extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'created_at',
-    'links',
-    'processing_errors',
-    'record_identifier',
-];
+        'created_at',
+        'links',
+        'processing_errors',
+        'record_identifier',
+    ];
 
     protected const array VALIDATION = [
-    'record_identifier' => [
-        'maxLength' => 255,
-    ],
-];
+        'record_identifier' => [
+            'maxLength' => 255,
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

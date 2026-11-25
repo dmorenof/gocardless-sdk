@@ -7,9 +7,9 @@ namespace GoCardlessSDK\DTOs\PaginationMeta;
 final class CursorsDTO extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'after',
-    'before',
-];
+        'after',
+        'before',
+    ];
 
     /**
      * Cursor pointing to the start of the desired set.

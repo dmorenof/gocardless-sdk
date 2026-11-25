@@ -7,16 +7,16 @@ namespace GoCardlessSDK\Requests\MandateImportEntries\Post;
 final class ImportEntriesRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'bank_account',
-    'customer',
-    'links',
-];
+        'bank_account',
+        'customer',
+        'links',
+    ];
 
     protected const array VALIDATION = [
-    'record_identifier' => [
-        'maxLength' => 255,
-    ],
-];
+        'record_identifier' => [
+            'maxLength' => 255,
+        ],
+    ];
 
     public \GoCardlessSDK\Requests\MandateImportEntries\Post\MandateImportEntries\EntriesAmendmentRequest $amendment;
     public \GoCardlessSDK\Requests\MandateImportEntries\Post\MandateImportEntries\BankAccountRequest $bank_account;

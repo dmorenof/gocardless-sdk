@@ -70,5 +70,4 @@ final class Complete extends \GoCardlessSDK\Client
         $result = $this->executeArguments(self::operation(self::POST), path: ['redirect_flow_id' => $redirect_flow_id], parameters: $params);
         return $result;
     }
-
 }

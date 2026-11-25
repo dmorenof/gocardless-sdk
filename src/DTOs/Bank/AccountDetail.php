@@ -12,11 +12,11 @@ namespace GoCardlessSDK\DTOs\Bank;
 final class AccountDetail extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array PROPERTY_MAP = [
-    'protected' => 'protected_',
-];
+        'protected' => 'protected_',
+    ];
     protected const array WIRE_PROPERTY_MAP = [
-    'protected_' => 'protected',
-];
+        'protected_' => 'protected',
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

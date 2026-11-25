@@ -14,13 +14,13 @@ namespace GoCardlessSDK\DTOs;
 final class TaxRate extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'end_date',
-    'id',
-    'jurisdiction',
-    'percentage',
-    'start_date',
-    'type',
-];
+        'end_date',
+        'id',
+        'jurisdiction',
+        'percentage',
+        'start_date',
+        'type',
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

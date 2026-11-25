@@ -38,5 +38,4 @@ final class Payouts extends \GoCardlessSDK\GoCardlessAPISDK
     {
         return self::client()->resource(\GoCardlessSDK\Resources\Payouts::class)->putByPayoutId($payout_id, $params);
     }
-
 }

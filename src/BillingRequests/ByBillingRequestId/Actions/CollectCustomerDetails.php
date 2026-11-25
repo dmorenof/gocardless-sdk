@@ -25,5 +25,4 @@ final class CollectCustomerDetails extends \GoCardlessSDK\GoCardlessAPISDK
     {
         return self::client()->resource(\GoCardlessSDK\Resources\BillingRequests\ByBillingRequestId\Actions\CollectCustomerDetails::class)->post($billing_request_id, $params);
     }
-
 }

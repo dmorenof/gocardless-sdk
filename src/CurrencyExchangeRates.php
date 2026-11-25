@@ -16,5 +16,4 @@ final class CurrencyExchangeRates extends \GoCardlessSDK\GoCardlessAPISDK
     {
         return self::client()->resource(\GoCardlessSDK\Resources\CurrencyExchangeRates::class)->get($params);
     }
-
 }

@@ -18,5 +18,4 @@ final class NegativeBalanceLimits extends \GoCardlessSDK\GoCardlessAPISDK
     {
         return self::client()->resource(\GoCardlessSDK\Resources\NegativeBalanceLimits::class)->get($params);
     }
-
 }

@@ -16,5 +16,4 @@ final class Withdrawal extends \GoCardlessSDK\GoCardlessAPISDK
     {
         return self::client()->resource(\GoCardlessSDK\Resources\OutboundPayments\Withdrawal::class)->post($params);
     }
-
 }

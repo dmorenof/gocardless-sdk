@@ -16,5 +16,4 @@ final class Disable extends \GoCardlessSDK\GoCardlessAPISDK
     {
         return self::client()->resource(\GoCardlessSDK\Resources\Blocks\ByBlockId\Actions\Disable::class)->post($block_id, $params);
     }
-
 }

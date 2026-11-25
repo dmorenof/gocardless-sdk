@@ -18,5 +18,4 @@ final class Cancel extends \GoCardlessSDK\GoCardlessAPISDK
     {
         return self::client()->resource(\GoCardlessSDK\Resources\InstalmentSchedules\ByInstalmentScheduleId\Actions\Cancel::class)->post($instalment_schedule_id, $params);
     }
-
 }

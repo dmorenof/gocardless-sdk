@@ -7,9 +7,9 @@ namespace GoCardlessSDK\Requests\BillingRequests\Post\BillingRequests;
 final class AccountInformationRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'country_code',
-    'scopes',
-];
+        'country_code',
+        'scopes',
+    ];
 
     /**
      * [ISO 3166-1 alpha-2 code.](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements)

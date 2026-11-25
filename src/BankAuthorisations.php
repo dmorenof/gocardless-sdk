@@ -33,5 +33,4 @@ final class BankAuthorisations extends \GoCardlessSDK\GoCardlessAPISDK
     {
         return self::client()->resource(\GoCardlessSDK\Resources\BankAuthorisations::class)->getByBankAuthorisationId($bank_authorisation_id, $params);
     }
-
 }

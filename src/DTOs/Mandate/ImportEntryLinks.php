@@ -12,8 +12,8 @@ namespace GoCardlessSDK\DTOs\Mandate;
 final class ImportEntryLinks extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'mandate_import',
-];
+        'mandate_import',
+    ];
 
     /**
      * The ID of the customer which was created when the mandate import was processed.

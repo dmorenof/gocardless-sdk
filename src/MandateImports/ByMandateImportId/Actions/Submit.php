@@ -23,5 +23,4 @@ final class Submit extends \GoCardlessSDK\GoCardlessAPISDK
     {
         return self::client()->resource(\GoCardlessSDK\Resources\MandateImports\ByMandateImportId\Actions\Submit::class)->post($mandate_import_id, $params);
     }
-
 }

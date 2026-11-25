@@ -17,5 +17,4 @@ final class Cancel extends \GoCardlessSDK\GoCardlessAPISDK
     {
         return self::client()->resource(\GoCardlessSDK\Resources\BillingRequests\ByBillingRequestId\Actions\Cancel::class)->post($billing_request_id, $params);
     }
-
 }

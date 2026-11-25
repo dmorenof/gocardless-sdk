@@ -170,5 +170,4 @@ final class InstalmentSchedules extends \GoCardlessSDK\Client
         $result = $this->executeArguments(self::operation(self::PUT_BY_INSTALMENT_SCHEDULE_ID), path: ['instalment_schedule_id' => $instalment_schedule_id], parameters: $params);
         return $result;
     }
-
 }

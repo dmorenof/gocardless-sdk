@@ -23,10 +23,10 @@ namespace GoCardlessSDK\Requests\OutboundPaymentImports\Post\OutboundPaymentImpo
 final class EntryItemsRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'amount',
-    'recipient_bank_account_id',
-    'scheme',
-];
+        'amount',
+        'recipient_bank_account_id',
+        'scheme',
+    ];
 
     /**
      * Amount, in the lowest denomination for the currency (e.g. pence in GBP, cents in EUR).

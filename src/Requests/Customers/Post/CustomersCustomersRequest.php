@@ -7,52 +7,52 @@ namespace GoCardlessSDK\Requests\Customers\Post;
 final class CustomersCustomersRequest extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'address_line1' => [
-        'maxLength' => 255,
-    ],
-    'address_line2' => [
-        'maxLength' => 255,
-    ],
-    'address_line3' => [
-        'maxLength' => 255,
-    ],
-    'city' => [
-        'maxLength' => 255,
-    ],
-    'company_name' => [
-        'maxLength' => 255,
-    ],
-    'country_code' => [
-        'maxLength' => 2,
-    ],
-    'danish_identity_number' => [
-        'maxLength' => 10,
-    ],
-    'email' => [
-        'maxLength' => 255,
-    ],
-    'family_name' => [
-        'maxLength' => 255,
-    ],
-    'given_name' => [
-        'maxLength' => 255,
-    ],
-    'language' => [
-        'maxLength' => 2,
-    ],
-    'phone_number' => [
-        'maxLength' => 30,
-    ],
-    'postal_code' => [
-        'maxLength' => 20,
-    ],
-    'region' => [
-        'maxLength' => 255,
-    ],
-    'swedish_identity_number' => [
-        'maxLength' => 12,
-    ],
-];
+        'address_line1' => [
+            'maxLength' => 255,
+        ],
+        'address_line2' => [
+            'maxLength' => 255,
+        ],
+        'address_line3' => [
+            'maxLength' => 255,
+        ],
+        'city' => [
+            'maxLength' => 255,
+        ],
+        'company_name' => [
+            'maxLength' => 255,
+        ],
+        'country_code' => [
+            'maxLength' => 2,
+        ],
+        'danish_identity_number' => [
+            'maxLength' => 10,
+        ],
+        'email' => [
+            'maxLength' => 255,
+        ],
+        'family_name' => [
+            'maxLength' => 255,
+        ],
+        'given_name' => [
+            'maxLength' => 255,
+        ],
+        'language' => [
+            'maxLength' => 2,
+        ],
+        'phone_number' => [
+            'maxLength' => 30,
+        ],
+        'postal_code' => [
+            'maxLength' => 20,
+        ],
+        'region' => [
+            'maxLength' => 255,
+        ],
+        'swedish_identity_number' => [
+            'maxLength' => 12,
+        ],
+    ];
 
     /**
      * The first line of the customer's address.

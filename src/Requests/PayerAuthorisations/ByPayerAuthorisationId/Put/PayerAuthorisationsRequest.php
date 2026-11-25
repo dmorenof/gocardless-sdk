@@ -7,10 +7,10 @@ namespace GoCardlessSDK\Requests\PayerAuthorisations\ByPayerAuthorisationId\Put;
 final class PayerAuthorisationsRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'bank_account',
-    'customer',
-    'mandate',
-];
+        'bank_account',
+        'customer',
+        'mandate',
+    ];
 
     public \GoCardlessSDK\DTOs\PayerAuthorisation\BankAccount $bank_account;
     public \GoCardlessSDK\DTOs\PayerAuthorisation\Customer $customer;

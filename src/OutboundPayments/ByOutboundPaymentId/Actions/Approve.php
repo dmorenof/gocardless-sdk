@@ -16,5 +16,4 @@ final class Approve extends \GoCardlessSDK\GoCardlessAPISDK
     {
         return self::client()->resource(\GoCardlessSDK\Resources\OutboundPayments\ByOutboundPaymentId\Actions\Approve::class)->post($outbound_payment_id, $params);
     }
-
 }

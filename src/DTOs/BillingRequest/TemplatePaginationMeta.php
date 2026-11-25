@@ -12,9 +12,9 @@ namespace GoCardlessSDK\DTOs\BillingRequest;
 final class TemplatePaginationMeta extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'cursors',
-    'limit',
-];
+        'cursors',
+        'limit',
+    ];
 
     public \GoCardlessSDK\DTOs\BillingRequest\TemplatePaginationMeta\CursorsDTO $cursors;
     /**

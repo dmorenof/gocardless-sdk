@@ -65,5 +65,4 @@ final class Cancel extends \GoCardlessSDK\Client
         $result = $this->executeArguments(self::operation(self::POST), path: ['instalment_schedule_id' => $instalment_schedule_id], parameters: $params);
         return $result;
     }
-
 }

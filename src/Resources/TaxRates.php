@@ -109,5 +109,4 @@ final class TaxRates extends \GoCardlessSDK\Client
         $result = $this->executeArguments(self::operation(self::GET_BY_TAX_RATE_ID), path: ['tax_rate_id' => $tax_rate_id], parameters: $params);
         return $result;
     }
-
 }

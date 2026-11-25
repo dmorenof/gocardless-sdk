@@ -22,5 +22,4 @@ final class BankAccountDetails extends \GoCardlessSDK\GoCardlessAPISDK
     {
         return self::client()->resource(\GoCardlessSDK\Resources\BankAccountDetails::class)->getByCustomerBankAccountId($customer_bank_account_id, $params);
     }
-
 }

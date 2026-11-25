@@ -113,5 +113,4 @@ final class Exports extends \GoCardlessSDK\Client
         $result = $this->executeArguments(self::operation(self::GET_BY_EXPORT_ID), path: ['export_id' => $export_id], parameters: $params);
         return $result;
     }
-
 }

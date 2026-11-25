@@ -112,5 +112,4 @@ final class Webhooks extends \GoCardlessSDK\Client
         $result = $this->executeArguments(self::operation(self::GET_BY_WEBHOOK_ID), path: ['webhook_id' => $webhook_id], parameters: $params);
         return $result;
     }
-
 }

@@ -7,28 +7,28 @@ namespace GoCardlessSDK\GetParams;
 final class OutboundPaymentImportEntries extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'GoCardlessVersion',
-    'outbound_payment_import',
-];
+        'GoCardlessVersion',
+        'outbound_payment_import',
+    ];
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [
-        'after' => 'after',
-        'before' => 'before',
-        'limit' => 'limit',
-        'outbound_payment_import' => 'outbound_payment_import',
-    ],
-    'header' => [
-        'GoCardless-Version' => 'GoCardlessVersion',
-    ],
-];
+        'path' => [],
+        'query' => [
+            'after' => 'after',
+            'before' => 'before',
+            'limit' => 'limit',
+            'outbound_payment_import' => 'outbound_payment_import',
+        ],
+        'header' => [
+            'GoCardless-Version' => 'GoCardlessVersion',
+        ],
+    ];
 
     protected const array PROPERTY_MAP = [
-    'GoCardless-Version' => 'GoCardlessVersion',
-];
+        'GoCardless-Version' => 'GoCardlessVersion',
+    ];
     protected const array WIRE_PROPERTY_MAP = [
-    'GoCardlessVersion' => 'GoCardless-Version',
-];
+        'GoCardlessVersion' => 'GoCardless-Version',
+    ];
 
     public string $GoCardlessVersion;
     public ?string $after;

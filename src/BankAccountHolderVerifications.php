@@ -30,5 +30,4 @@ final class BankAccountHolderVerifications extends \GoCardlessSDK\GoCardlessAPIS
     {
         return self::client()->resource(\GoCardlessSDK\Resources\BankAccountHolderVerifications::class)->getByBankAccountHolderVerificationId($bank_account_holder_verification_id, $params);
     }
-
 }

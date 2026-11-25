@@ -12,9 +12,9 @@ namespace GoCardlessSDK\DTOs\Mandate;
 final class ImportEntryPaginationMeta extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'cursors',
-    'limit',
-];
+        'cursors',
+        'limit',
+    ];
 
     public \GoCardlessSDK\DTOs\Mandate\ImportEntryPaginationMeta\CursorsDTO $cursors;
     /**

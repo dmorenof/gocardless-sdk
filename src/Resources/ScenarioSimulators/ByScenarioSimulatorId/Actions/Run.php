@@ -63,5 +63,4 @@ final class Run extends \GoCardlessSDK\Client
         $result = $this->executeArguments(self::operation(self::POST), path: ['scenario_simulator_id' => $scenario_simulator_id], parameters: $params);
         return $result;
     }
-
 }

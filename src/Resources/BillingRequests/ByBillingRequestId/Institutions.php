@@ -61,5 +61,4 @@ final class Institutions extends \GoCardlessSDK\Client
         $result = $this->executeArguments(self::operation(self::GET), path: ['billing_request_id' => $billing_request_id], parameters: $params);
         return $result;
     }
-
 }

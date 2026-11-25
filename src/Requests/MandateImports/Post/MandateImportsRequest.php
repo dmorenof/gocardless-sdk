@@ -7,8 +7,8 @@ namespace GoCardlessSDK\Requests\MandateImports\Post;
 final class MandateImportsRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'scheme',
-];
+        'scheme',
+    ];
 
     /**
      * Related resources

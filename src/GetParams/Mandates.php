@@ -7,37 +7,37 @@ namespace GoCardlessSDK\GetParams;
 final class Mandates extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'GoCardlessVersion',
-];
+        'GoCardlessVersion',
+    ];
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [
-        'after' => 'after',
-        'before' => 'before',
-        'created_at' => 'created_at',
-        'creditor' => 'creditor',
-        'customer' => 'customer',
-        'customer_bank_account' => 'customer_bank_account',
-        'include' => 'include_',
-        'limit' => 'limit',
-        'mandate_type' => 'mandate_type',
-        'reference' => 'reference',
-        'scheme' => 'scheme',
-        'status' => 'status',
-    ],
-    'header' => [
-        'GoCardless-Version' => 'GoCardlessVersion',
-    ],
-];
+        'path' => [],
+        'query' => [
+            'after' => 'after',
+            'before' => 'before',
+            'created_at' => 'created_at',
+            'creditor' => 'creditor',
+            'customer' => 'customer',
+            'customer_bank_account' => 'customer_bank_account',
+            'include' => 'include_',
+            'limit' => 'limit',
+            'mandate_type' => 'mandate_type',
+            'reference' => 'reference',
+            'scheme' => 'scheme',
+            'status' => 'status',
+        ],
+        'header' => [
+            'GoCardless-Version' => 'GoCardlessVersion',
+        ],
+    ];
 
     protected const array PROPERTY_MAP = [
-    'GoCardless-Version' => 'GoCardlessVersion',
-    'include' => 'include_',
-];
+        'GoCardless-Version' => 'GoCardlessVersion',
+        'include' => 'include_',
+    ];
     protected const array WIRE_PROPERTY_MAP = [
-    'GoCardlessVersion' => 'GoCardless-Version',
-    'include_' => 'include',
-];
+        'GoCardlessVersion' => 'GoCardless-Version',
+        'include_' => 'include',
+    ];
 
     public string $GoCardlessVersion;
     public ?string $after;

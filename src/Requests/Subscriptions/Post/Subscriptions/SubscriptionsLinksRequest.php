@@ -7,8 +7,8 @@ namespace GoCardlessSDK\Requests\Subscriptions\Post\Subscriptions;
 final class SubscriptionsLinksRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'mandate',
-];
+        'mandate',
+    ];
 
     /**
      * ID of the associated [mandate](https://docs.gocardless.com/docs/api-reference/mandate) which the subscription will create payments against.

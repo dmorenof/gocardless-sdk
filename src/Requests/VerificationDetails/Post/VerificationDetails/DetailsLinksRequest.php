@@ -7,8 +7,8 @@ namespace GoCardlessSDK\Requests\VerificationDetails\Post\VerificationDetails;
 final class DetailsLinksRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'creditor',
-];
+        'creditor',
+    ];
 
     /**
      * ID of the associated [creditor](https://docs.gocardless.com/docs/api-reference/creditor).

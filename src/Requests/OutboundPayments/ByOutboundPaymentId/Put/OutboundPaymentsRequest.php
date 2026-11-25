@@ -7,5 +7,4 @@ namespace GoCardlessSDK\Requests\OutboundPayments\ByOutboundPaymentId\Put;
 final class OutboundPaymentsRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public \GoCardlessSDK\DTOs\OutboundPayment\Metadata $metadata;
-
 }

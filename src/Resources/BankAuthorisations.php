@@ -124,5 +124,4 @@ final class BankAuthorisations extends \GoCardlessSDK\Client
         $result = $this->executeArguments(self::operation(self::GET_BY_BANK_AUTHORISATION_ID), path: ['bank_authorisation_id' => $bank_authorisation_id], parameters: $params);
         return $result;
     }
-
 }

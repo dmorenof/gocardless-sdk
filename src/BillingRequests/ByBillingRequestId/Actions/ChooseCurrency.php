@@ -19,5 +19,4 @@ final class ChooseCurrency extends \GoCardlessSDK\GoCardlessAPISDK
     {
         return self::client()->resource(\GoCardlessSDK\Resources\BillingRequests\ByBillingRequestId\Actions\ChooseCurrency::class)->post($billing_request_id, $params);
     }
-
 }

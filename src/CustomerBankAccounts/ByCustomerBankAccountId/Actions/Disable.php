@@ -20,5 +20,4 @@ final class Disable extends \GoCardlessSDK\GoCardlessAPISDK
     {
         return self::client()->resource(\GoCardlessSDK\Resources\CustomerBankAccounts\ByCustomerBankAccountId\Actions\Disable::class)->post($customer_bank_account_id, $params);
     }
-
 }

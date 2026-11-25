@@ -173,5 +173,4 @@ final class CreditorBankAccounts extends \GoCardlessSDK\Client
         $result = $this->executeArguments(self::operation(self::GET_BY_CREDITOR_BANK_ACCOUNT_ID), path: ['creditor_bank_account_id' => $creditor_bank_account_id], parameters: $params);
         return $result;
     }
-
 }

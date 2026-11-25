@@ -66,5 +66,4 @@ final class Cancel extends \GoCardlessSDK\Client
         $result = $this->executeArguments(self::operation(self::POST), path: ['mandate_import_id' => $mandate_import_id], parameters: $params);
         return $result;
     }
-
 }

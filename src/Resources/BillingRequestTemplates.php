@@ -226,5 +226,4 @@ final class BillingRequestTemplates extends \GoCardlessSDK\Client
         $result = $this->executeArguments(self::operation(self::PUT_BY_BILLING_REQUEST_TEMPLATE_ID), path: ['billing_request_template_id' => $billing_request_template_id], parameters: $params);
         return $result;
     }
-
 }

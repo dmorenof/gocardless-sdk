@@ -7,9 +7,9 @@ namespace GoCardlessSDK\DTOs\OutboundPayment\ImportEntryMultiResource\Response\M
 final class CursorsDTO extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'after',
-    'before',
-];
+        'after',
+        'before',
+    ];
 
     /**
      * Cursor pointing to the start of the desired set.

@@ -16,5 +16,4 @@ final class Run extends \GoCardlessSDK\GoCardlessAPISDK
     {
         return self::client()->resource(\GoCardlessSDK\Resources\ScenarioSimulators\ByScenarioSimulatorId\Actions\Run::class)->post($scenario_simulator_id, $params);
     }
-
 }

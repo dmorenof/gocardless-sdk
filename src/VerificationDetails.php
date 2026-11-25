@@ -30,5 +30,4 @@ final class VerificationDetails extends \GoCardlessSDK\GoCardlessAPISDK
     {
         return self::client()->resource(\GoCardlessSDK\Resources\VerificationDetails::class)->post($params);
     }
-
 }

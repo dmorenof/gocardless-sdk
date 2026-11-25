@@ -28,5 +28,4 @@ final class Reinstate extends \GoCardlessSDK\GoCardlessAPISDK
     {
         return self::client()->resource(\GoCardlessSDK\Resources\Mandates\ByMandateId\Actions\Reinstate::class)->post($mandate_id, $params);
     }
-
 }

@@ -83,5 +83,4 @@ final class MandatePdfs extends \GoCardlessSDK\Client
         $result = $this->executeArguments(self::operation(self::POST), parameters: $params);
         return $result;
     }
-
 }

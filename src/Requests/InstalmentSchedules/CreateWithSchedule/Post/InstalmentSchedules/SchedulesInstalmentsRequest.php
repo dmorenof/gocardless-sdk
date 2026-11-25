@@ -13,10 +13,10 @@ namespace GoCardlessSDK\Requests\InstalmentSchedules\CreateWithSchedule\Post\Ins
 final class SchedulesInstalmentsRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'amounts',
-    'interval',
-    'interval_unit',
-];
+        'amounts',
+        'interval',
+        'interval_unit',
+    ];
 
     /**
      * List of amounts of each instalment, in the lowest denomination for the

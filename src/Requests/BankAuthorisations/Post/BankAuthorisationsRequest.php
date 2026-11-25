@@ -7,8 +7,8 @@ namespace GoCardlessSDK\Requests\BankAuthorisations\Post;
 final class BankAuthorisationsRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'links',
-];
+        'links',
+    ];
 
     public \GoCardlessSDK\Requests\BankAuthorisations\Post\BankAuthorisations\AuthorisationsLinksRequest $links;
     /**

@@ -7,9 +7,9 @@ namespace GoCardlessSDK\DTOs\BillingRequest\InstalmentSchedule\Request;
 final class WithDatesDTO extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'amount',
-    'charge_date',
-];
+        'amount',
+        'charge_date',
+    ];
 
     /**
      * Amount, in the lowest denomination for the currency (e.g. pence in GBP, cents in EUR).

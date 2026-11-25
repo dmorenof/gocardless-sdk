@@ -12,9 +12,9 @@ namespace GoCardlessSDK\DTOs\Customer;
 final class NotificationPaginationMeta extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'cursors',
-    'limit',
-];
+        'cursors',
+        'limit',
+    ];
 
     public \GoCardlessSDK\DTOs\Customer\NotificationPaginationMeta\CursorsDTO $cursors;
     /**

@@ -7,10 +7,10 @@ namespace GoCardlessSDK\Requests\MandateImportEntries\Post\MandateImportEntries;
 final class EntriesAmendmentRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'original_creditor_id',
-    'original_creditor_name',
-    'original_mandate_reference',
-];
+        'original_creditor_id',
+        'original_creditor_name',
+        'original_mandate_reference',
+    ];
 
     /**
      * The creditor identifier of the direct debit originator. Required if mandate

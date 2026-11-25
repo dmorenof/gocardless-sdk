@@ -16,5 +16,4 @@ final class Balances extends \GoCardlessSDK\GoCardlessAPISDK
     {
         return self::client()->resource(\GoCardlessSDK\Resources\Balances::class)->get($params);
     }
-
 }

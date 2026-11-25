@@ -7,8 +7,8 @@ namespace GoCardlessSDK\Requests\Mandates\Post;
 final class MandatesMandatesRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'links',
-];
+        'links',
+    ];
 
     public \GoCardlessSDK\Enums\Mandate\AuthorisationSource $authorisation_source;
     public \GoCardlessSDK\Requests\Mandates\Post\Mandates\MandatesLinksRequest $links;

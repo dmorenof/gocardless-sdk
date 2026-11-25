@@ -10,10 +10,10 @@ namespace GoCardlessSDK\DTOs;
 final class Error extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'errors',
-    'message',
-    'request_id',
-];
+        'errors',
+        'message',
+        'request_id',
+    ];
 
     public int $code;
     public string $documentation_url;

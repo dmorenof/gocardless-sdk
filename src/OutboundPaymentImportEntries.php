@@ -16,5 +16,4 @@ final class OutboundPaymentImportEntries extends \GoCardlessSDK\GoCardlessAPISDK
     {
         return self::client()->resource(\GoCardlessSDK\Resources\OutboundPaymentImportEntries::class)->get($params);
     }
-
 }

@@ -12,11 +12,11 @@ namespace GoCardlessSDK\DTOs;
 final class CurrencyExchangeRate extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'rate',
-    'source',
-    'target',
-    'time',
-];
+        'rate',
+        'source',
+        'target',
+        'time',
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

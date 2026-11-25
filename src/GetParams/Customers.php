@@ -7,31 +7,31 @@ namespace GoCardlessSDK\GetParams;
 final class Customers extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'GoCardlessVersion',
-];
+        'GoCardlessVersion',
+    ];
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [
-        'action_required' => 'action_required',
-        'after' => 'after',
-        'before' => 'before',
-        'created_at' => 'created_at',
-        'currency' => 'currency',
-        'limit' => 'limit',
-        'sort_direction' => 'sort_direction',
-        'sort_field' => 'sort_field',
-    ],
-    'header' => [
-        'GoCardless-Version' => 'GoCardlessVersion',
-    ],
-];
+        'path' => [],
+        'query' => [
+            'action_required' => 'action_required',
+            'after' => 'after',
+            'before' => 'before',
+            'created_at' => 'created_at',
+            'currency' => 'currency',
+            'limit' => 'limit',
+            'sort_direction' => 'sort_direction',
+            'sort_field' => 'sort_field',
+        ],
+        'header' => [
+            'GoCardless-Version' => 'GoCardlessVersion',
+        ],
+    ];
 
     protected const array PROPERTY_MAP = [
-    'GoCardless-Version' => 'GoCardlessVersion',
-];
+        'GoCardless-Version' => 'GoCardlessVersion',
+    ];
     protected const array WIRE_PROPERTY_MAP = [
-    'GoCardlessVersion' => 'GoCardless-Version',
-];
+        'GoCardlessVersion' => 'GoCardless-Version',
+    ];
 
     public string $GoCardlessVersion;
     public ?\GoCardlessSDK\Enums\Customers\Get\Query\ActionRequiredEnum $action_required;

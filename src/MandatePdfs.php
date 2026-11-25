@@ -33,5 +33,4 @@ final class MandatePdfs extends \GoCardlessSDK\GoCardlessAPISDK
     {
         return self::client()->resource(\GoCardlessSDK\Resources\MandatePdfs::class)->post($params);
     }
-
 }

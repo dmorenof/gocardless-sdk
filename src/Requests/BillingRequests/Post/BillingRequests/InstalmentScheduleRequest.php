@@ -7,11 +7,11 @@ namespace GoCardlessSDK\Requests\BillingRequests\Post\BillingRequests;
 final class InstalmentScheduleRequest extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'name' => [
-        'minLength' => 1,
-        'maxLength' => 100,
-    ],
-];
+        'name' => [
+            'minLength' => 1,
+            'maxLength' => 100,
+        ],
+    ];
 
     public \GoCardlessSDK\DTOs\Subscription\OneOfAppFeeStringable $app_fee;
     /**

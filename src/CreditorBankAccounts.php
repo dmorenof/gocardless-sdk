@@ -38,5 +38,4 @@ final class CreditorBankAccounts extends \GoCardlessSDK\GoCardlessAPISDK
     {
         return self::client()->resource(\GoCardlessSDK\Resources\CreditorBankAccounts::class)->getByCreditorBankAccountId($creditor_bank_account_id, $params);
     }
-
 }

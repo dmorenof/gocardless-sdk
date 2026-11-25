@@ -10,8 +10,8 @@ namespace GoCardlessSDK\DTOs\BillingRequest;
 final class FlowLinks extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'billing_request',
-];
+        'billing_request',
+    ];
 
     /**
      * ID of the [billing request](https://docs.gocardless.com/docs/api-reference/billing-request) against which this flow was created.

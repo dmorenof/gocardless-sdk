@@ -7,5 +7,4 @@ namespace GoCardlessSDK\Requests\Payouts\ByPayoutId;
 final class Put extends \Dmorenof\SdkRuntime\DTO
 {
     public \GoCardlessSDK\Requests\Payouts\ByPayoutId\Put\ByPayoutIdPayoutsRequest $payouts;
-
 }

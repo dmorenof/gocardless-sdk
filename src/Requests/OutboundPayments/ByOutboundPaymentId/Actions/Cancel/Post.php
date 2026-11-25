@@ -7,5 +7,4 @@ namespace GoCardlessSDK\Requests\OutboundPayments\ByOutboundPaymentId\Actions\Ca
 final class Post extends \Dmorenof\SdkRuntime\DTO
 {
     public \GoCardlessSDK\Requests\OutboundPayments\ByOutboundPaymentId\Actions\Cancel\Post\OutboundPaymentsRequest $outbound_payments;
-
 }

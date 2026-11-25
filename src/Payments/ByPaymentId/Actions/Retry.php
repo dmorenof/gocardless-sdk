@@ -20,5 +20,4 @@ final class Retry extends \GoCardlessSDK\GoCardlessAPISDK
     {
         return self::client()->resource(\GoCardlessSDK\Resources\Payments\ByPaymentId\Actions\Retry::class)->post($payment_id, $params);
     }
-
 }

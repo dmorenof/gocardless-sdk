@@ -248,5 +248,4 @@ final class Subscriptions extends \GoCardlessSDK\Client
         $result = $this->executeArguments(self::operation(self::PUT_BY_SUBSCRIPTION_ID), path: ['subscription_id' => $subscription_id], parameters: $params);
         return $result;
     }
-
 }

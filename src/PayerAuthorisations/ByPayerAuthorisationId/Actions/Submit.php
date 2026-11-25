@@ -21,5 +21,4 @@ final class Submit extends \GoCardlessSDK\GoCardlessAPISDK
     {
         return self::client()->resource(\GoCardlessSDK\Resources\PayerAuthorisations\ByPayerAuthorisationId\Actions\Submit::class)->post($payer_authorisation_id, $params);
     }
-
 }

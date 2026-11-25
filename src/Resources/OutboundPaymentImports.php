@@ -171,5 +171,4 @@ final class OutboundPaymentImports extends \GoCardlessSDK\Client
         $result = $this->executeArguments(self::operation(self::GET_BY_OUTBOUND_PAYMENT_IMPORT_ID), path: ['outbound_payment_import_id' => $outbound_payment_import_id], parameters: $params);
         return $result;
     }
-
 }

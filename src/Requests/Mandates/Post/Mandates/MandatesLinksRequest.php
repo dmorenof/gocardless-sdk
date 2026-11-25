@@ -7,8 +7,8 @@ namespace GoCardlessSDK\Requests\Mandates\Post\Mandates;
 final class MandatesLinksRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'customer_bank_account',
-];
+        'customer_bank_account',
+    ];
 
     /**
      * ID of the associated [creditor](https://docs.gocardless.com/docs/api-reference/creditor). Only required if your account manages multiple creditors.

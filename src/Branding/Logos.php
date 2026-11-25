@@ -21,5 +21,4 @@ final class Logos extends \GoCardlessSDK\GoCardlessAPISDK
     {
         return self::client()->resource(\GoCardlessSDK\Resources\Branding\Logos::class)->post($params);
     }
-
 }

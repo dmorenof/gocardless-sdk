@@ -12,5 +12,4 @@ namespace GoCardlessSDK\DTOs\OutboundPayment\Stats;
 final class Response extends \Dmorenof\SdkRuntime\DTO
 {
     public \GoCardlessSDK\DTOs\OutboundPayment\Stats\Response\OutboundPaymentsDTO $outbound_payments;
-
 }

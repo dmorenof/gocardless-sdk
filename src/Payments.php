@@ -53,5 +53,4 @@ final class Payments extends \GoCardlessSDK\GoCardlessAPISDK
     {
         return self::client()->resource(\GoCardlessSDK\Resources\Payments::class)->putByPaymentId($payment_id, $params);
     }
-
 }

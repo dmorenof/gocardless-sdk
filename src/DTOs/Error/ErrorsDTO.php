@@ -7,8 +7,8 @@ namespace GoCardlessSDK\DTOs\Error;
 final class ErrorsDTO extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'message',
-];
+        'message',
+    ];
 
     public string $field;
     public \GoCardlessSDK\DTOs\Error\ErrorsItem\LinksDTO $links;

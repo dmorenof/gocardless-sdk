@@ -13,25 +13,25 @@ namespace GoCardlessSDK\DTOs;
 final class SchemeIdentifier extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'address_line1',
-    'address_line2',
-    'address_line3',
-    'can_specify_mandate_reference',
-    'city',
-    'country_code',
-    'created_at',
-    'currency',
-    'email',
-    'id',
-    'minimum_advance_notice',
-    'name',
-    'phone_number',
-    'postal_code',
-    'reference',
-    'region',
-    'scheme',
-    'status',
-];
+        'address_line1',
+        'address_line2',
+        'address_line3',
+        'can_specify_mandate_reference',
+        'city',
+        'country_code',
+        'created_at',
+        'currency',
+        'email',
+        'id',
+        'minimum_advance_notice',
+        'name',
+        'phone_number',
+        'postal_code',
+        'reference',
+        'region',
+        'scheme',
+        'status',
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

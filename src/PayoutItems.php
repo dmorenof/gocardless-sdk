@@ -19,5 +19,4 @@ final class PayoutItems extends \GoCardlessSDK\GoCardlessAPISDK
     {
         return self::client()->resource(\GoCardlessSDK\Resources\PayoutItems::class)->get($params);
     }
-
 }

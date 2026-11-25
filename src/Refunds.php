@@ -61,5 +61,4 @@ final class Refunds extends \GoCardlessSDK\GoCardlessAPISDK
     {
         return self::client()->resource(\GoCardlessSDK\Resources\Refunds::class)->putByRefundId($refund_id, $params);
     }
-
 }

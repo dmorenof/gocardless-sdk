@@ -128,5 +128,4 @@ final class RedirectFlows extends \GoCardlessSDK\Client
         $result = $this->executeArguments(self::operation(self::GET_BY_REDIRECT_FLOW_ID), path: ['redirect_flow_id' => $redirect_flow_id], parameters: $params);
         return $result;
     }
-
 }

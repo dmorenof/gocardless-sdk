@@ -7,19 +7,19 @@ namespace GoCardlessSDK\Requests\InstalmentSchedules\CreateWithSchedule\Post;
 final class InstalmentSchedulesRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'currency',
-    'instalments',
-    'links',
-    'name',
-    'total_amount',
-];
+        'currency',
+        'instalments',
+        'links',
+        'name',
+        'total_amount',
+    ];
 
     protected const array VALIDATION = [
-    'name' => [
-        'minLength' => 1,
-        'maxLength' => 100,
-    ],
-];
+        'name' => [
+            'minLength' => 1,
+            'maxLength' => 100,
+        ],
+    ];
 
     public \GoCardlessSDK\DTOs\Subscription\OneOfAppFeeStringable $app_fee;
     public \GoCardlessSDK\Enums\InstalmentSchedule\Currency $currency;

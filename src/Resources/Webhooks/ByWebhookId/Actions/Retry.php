@@ -57,5 +57,4 @@ final class Retry extends \GoCardlessSDK\Client
         $result = $this->executeArguments(self::operation(self::POST), path: ['webhook_id' => $webhook_id], parameters: $params);
         return $result;
     }
-
 }

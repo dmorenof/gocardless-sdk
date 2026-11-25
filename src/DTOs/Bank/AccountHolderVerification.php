@@ -12,10 +12,10 @@ namespace GoCardlessSDK\DTOs\Bank;
 final class AccountHolderVerification extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'id',
-    'status',
-    'type',
-];
+        'id',
+        'status',
+        'type',
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

@@ -233,5 +233,4 @@ final class Creditors extends \GoCardlessSDK\Client
         $result = $this->executeArguments(self::operation(self::PUT_BY_CREDITOR_ID), path: ['creditor_id' => $creditor_id], parameters: $params);
         return $result;
     }
-
 }

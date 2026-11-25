@@ -226,5 +226,4 @@ final class OutboundPayments extends \GoCardlessSDK\Client
         $result = $this->executeArguments(self::operation(self::PUT_BY_OUTBOUND_PAYMENT_ID), path: ['outbound_payment_id' => $outbound_payment_id], parameters: $params);
         return $result;
     }
-
 }

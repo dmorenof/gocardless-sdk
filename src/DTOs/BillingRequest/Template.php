@@ -22,31 +22,31 @@ namespace GoCardlessSDK\DTOs\BillingRequest;
 final class Template extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'authorisation_url',
-    'created_at',
-    'id',
-    'mandate_request_constraints',
-    'mandate_request_currency',
-    'mandate_request_description',
-    'mandate_request_metadata',
-    'mandate_request_scheme',
-    'mandate_request_verify',
-    'metadata',
-    'name',
-    'payment_request_amount',
-    'payment_request_currency',
-    'payment_request_description',
-    'payment_request_metadata',
-    'payment_request_scheme',
-    'redirect_uri',
-    'updated_at',
-];
+        'authorisation_url',
+        'created_at',
+        'id',
+        'mandate_request_constraints',
+        'mandate_request_currency',
+        'mandate_request_description',
+        'mandate_request_metadata',
+        'mandate_request_scheme',
+        'mandate_request_verify',
+        'metadata',
+        'name',
+        'payment_request_amount',
+        'payment_request_currency',
+        'payment_request_description',
+        'payment_request_metadata',
+        'payment_request_scheme',
+        'redirect_uri',
+        'updated_at',
+    ];
 
     protected const array VALIDATION = [
-    'name' => [
-        'maxLength' => 255,
-    ],
-];
+        'name' => [
+            'maxLength' => 255,
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

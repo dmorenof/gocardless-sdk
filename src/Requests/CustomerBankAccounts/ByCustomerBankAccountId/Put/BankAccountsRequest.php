@@ -7,5 +7,4 @@ namespace GoCardlessSDK\Requests\CustomerBankAccounts\ByCustomerBankAccountId\Pu
 final class BankAccountsRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public \GoCardlessSDK\DTOs\Customer\Metadata $metadata;
-
 }

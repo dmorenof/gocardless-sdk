@@ -7,8 +7,8 @@ namespace GoCardlessSDK\Requests\MandateImportEntries\Post\MandateImportEntries;
 final class BankAccountRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'account_holder_name',
-];
+        'account_holder_name',
+    ];
 
     /**
      * Name of the account holder, as known by the bank. The full name provided when the customer is created is stored and is available via the API, but is transliterated, upcased, and truncated to 18 characters in bank submissions. This field is required unless the request includes a [customer bank account token](https://docs.gocardless.com/docs/collect-payments/integration-types/javascript-drop-in-flow).

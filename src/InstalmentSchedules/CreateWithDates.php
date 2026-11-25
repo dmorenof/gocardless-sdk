@@ -27,5 +27,4 @@ final class CreateWithDates extends \GoCardlessSDK\GoCardlessAPISDK
     {
         return self::client()->resource(\GoCardlessSDK\Resources\InstalmentSchedules\CreateWithDates::class)->post($params);
     }
-
 }

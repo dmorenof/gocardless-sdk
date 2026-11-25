@@ -7,5 +7,4 @@ namespace GoCardlessSDK\Requests\BillingRequests\ByBillingRequestId\Actions\Canc
 final class BillingRequestsRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public \GoCardlessSDK\DTOs\Customer\Metadata $metadata;
-
 }

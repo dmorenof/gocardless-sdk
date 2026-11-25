@@ -7,8 +7,8 @@ namespace GoCardlessSDK\Requests\BillingRequests\ByBillingRequestId\Actions\Choo
 final class BillingRequestsRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'currency',
-];
+        'currency',
+    ];
 
     /**
      * [ISO 4217](https://en.wikipedia.org/wiki/ISO_4217#Active_codes) currency code. Currently "AUD", "CAD", "DKK", "EUR", "GBP", "NZD", "SEK" and "USD" are supported.

@@ -7,8 +7,8 @@ namespace GoCardlessSDK\Requests\BillingRequestFlows\Post;
 final class BillingFlowsRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'links',
-];
+        'links',
+    ];
 
     /**
      * (Experimental feature) Fulfil the Billing Request on completion of the flow (true by default). Disabling the auto_fulfil is not allowed currently.

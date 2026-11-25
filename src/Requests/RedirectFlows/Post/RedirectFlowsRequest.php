@@ -7,9 +7,9 @@ namespace GoCardlessSDK\Requests\RedirectFlows\Post;
 final class RedirectFlowsRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'session_token',
-    'success_redirect_url',
-];
+        'session_token',
+        'success_redirect_url',
+    ];
 
     /**
      * A description of the item the customer is paying for. This will be shown on the hosted payment pages.

@@ -7,10 +7,10 @@ namespace GoCardlessSDK\Requests\Payments\Post;
 final class PaymentsPaymentsRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'amount',
-    'currency',
-    'links',
-];
+        'amount',
+        'currency',
+        'links',
+    ];
 
     public \GoCardlessSDK\DTOs\Payment\AnyOfAmountStringable $amount;
     public \GoCardlessSDK\DTOs\Payment\AppFee\OneOfRequest $app_fee;

@@ -7,5 +7,4 @@ namespace GoCardlessSDK\Requests\BillingRequestTemplates\ByBillingRequestTemplat
 final class Put extends \Dmorenof\SdkRuntime\DTO
 {
     public \GoCardlessSDK\Requests\BillingRequestTemplates\ByBillingRequestTemplateId\Put\BillingTemplatesRequest $billing_request_templates;
-
 }

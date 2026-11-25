@@ -7,5 +7,4 @@ namespace GoCardlessSDK\Requests\BillingRequests\ByBillingRequestId\Actions\Sele
 final class Post extends \Dmorenof\SdkRuntime\DTO
 {
     public \GoCardlessSDK\Requests\BillingRequests\ByBillingRequestId\Actions\SelectInstitution\Post\BillingRequestsRequest $billing_requests;
-
 }

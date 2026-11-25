@@ -175,5 +175,4 @@ final class Blocks extends \GoCardlessSDK\Client
         $result = $this->executeArguments(self::operation(self::GET_BY_BLOCK_ID), path: ['block_id' => $block_id], parameters: $params);
         return $result;
     }
-
 }

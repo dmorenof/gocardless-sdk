@@ -7,8 +7,8 @@ namespace GoCardlessSDK\Requests\MandateImportEntries\Post\MandateImportEntries;
 final class EntriesLinksRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'mandate_import',
-];
+        'mandate_import',
+    ];
 
     /**
      * Unique identifier, beginning with "IM".

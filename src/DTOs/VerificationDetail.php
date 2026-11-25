@@ -18,19 +18,19 @@ namespace GoCardlessSDK\DTOs;
 final class VerificationDetail extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'address_line1',
-    'address_line2',
-    'address_line3',
-    'city',
-    'company_number',
-    'country_code',
-    'description',
-    'directors',
-    'links',
-    'name',
-    'postal_code',
-    'region',
-];
+        'address_line1',
+        'address_line2',
+        'address_line3',
+        'city',
+        'company_number',
+        'country_code',
+        'description',
+        'directors',
+        'links',
+        'name',
+        'postal_code',
+        'region',
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

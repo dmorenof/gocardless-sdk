@@ -7,34 +7,34 @@ namespace GoCardlessSDK\GetParams;
 final class Payouts extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'GoCardlessVersion',
-];
+        'GoCardlessVersion',
+    ];
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [
-        'after' => 'after',
-        'before' => 'before',
-        'created_at' => 'created_at',
-        'creditor' => 'creditor',
-        'creditor_bank_account' => 'creditor_bank_account',
-        'currency' => 'currency',
-        'limit' => 'limit',
-        'metadata' => 'metadata',
-        'payout_type' => 'payout_type',
-        'reference' => 'reference',
-        'status' => 'status',
-    ],
-    'header' => [
-        'GoCardless-Version' => 'GoCardlessVersion',
-    ],
-];
+        'path' => [],
+        'query' => [
+            'after' => 'after',
+            'before' => 'before',
+            'created_at' => 'created_at',
+            'creditor' => 'creditor',
+            'creditor_bank_account' => 'creditor_bank_account',
+            'currency' => 'currency',
+            'limit' => 'limit',
+            'metadata' => 'metadata',
+            'payout_type' => 'payout_type',
+            'reference' => 'reference',
+            'status' => 'status',
+        ],
+        'header' => [
+            'GoCardless-Version' => 'GoCardlessVersion',
+        ],
+    ];
 
     protected const array PROPERTY_MAP = [
-    'GoCardless-Version' => 'GoCardlessVersion',
-];
+        'GoCardless-Version' => 'GoCardlessVersion',
+    ];
     protected const array WIRE_PROPERTY_MAP = [
-    'GoCardlessVersion' => 'GoCardless-Version',
-];
+        'GoCardlessVersion' => 'GoCardless-Version',
+    ];
 
     public string $GoCardlessVersion;
     public ?string $after;

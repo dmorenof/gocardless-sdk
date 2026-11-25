@@ -36,5 +36,4 @@ final class MandateImportEntries extends \GoCardlessSDK\GoCardlessAPISDK
     {
         return self::client()->resource(\GoCardlessSDK\Resources\MandateImportEntries::class)->post($params);
     }
-
 }

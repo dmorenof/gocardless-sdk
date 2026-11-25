@@ -7,5 +7,4 @@ namespace GoCardlessSDK\Requests\Blocks;
 final class Post extends \Dmorenof\SdkRuntime\DTO
 {
     public \GoCardlessSDK\Requests\Blocks\Post\BlocksBlocksRequest $blocks;
-
 }

@@ -243,5 +243,4 @@ final class Refunds extends \GoCardlessSDK\Client
         $result = $this->executeArguments(self::operation(self::PUT_BY_REFUND_ID), path: ['refund_id' => $refund_id], parameters: $params);
         return $result;
     }
-
 }

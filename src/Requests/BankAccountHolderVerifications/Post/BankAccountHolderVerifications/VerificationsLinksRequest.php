@@ -7,8 +7,8 @@ namespace GoCardlessSDK\Requests\BankAccountHolderVerifications\Post\BankAccount
 final class VerificationsLinksRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'bank_account',
-];
+        'bank_account',
+    ];
 
     /**
      * The ID of the bank account to verify, e.g. "BA123".

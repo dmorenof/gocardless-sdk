@@ -7,5 +7,4 @@ namespace GoCardlessSDK\Requests\Subscriptions\BySubscriptionId\Actions\Resume\P
 final class ResumeSubscriptionsRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public \GoCardlessSDK\DTOs\Customer\Metadata $metadata;
-
 }

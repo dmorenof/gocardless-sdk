@@ -7,10 +7,10 @@ namespace GoCardlessSDK\Requests\BillingRequestTemplates\ByBillingRequestTemplat
 final class BillingTemplatesRequest extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'name' => [
-        'maxLength' => 255,
-    ],
-];
+        'name' => [
+            'maxLength' => 255,
+        ],
+    ];
 
     public \GoCardlessSDK\DTOs\BillingRequest\MandateRequestConstraints $mandate_request_constraints;
     public \GoCardlessSDK\DTOs\BillingRequest\OneOfTemplateMandateCurrency $mandate_request_currency;

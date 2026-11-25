@@ -7,8 +7,8 @@ namespace GoCardlessSDK\Requests\InstalmentSchedules\CreateWithDates\Post\Instal
 final class SchedulesLinksRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'mandate',
-];
+        'mandate',
+    ];
 
     /**
      * ID of the associated [mandate](https://docs.gocardless.com/docs/api-reference/mandate) which the instalment schedule will create payments against.

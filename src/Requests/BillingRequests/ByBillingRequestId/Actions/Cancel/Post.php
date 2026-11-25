@@ -7,5 +7,4 @@ namespace GoCardlessSDK\Requests\BillingRequests\ByBillingRequestId\Actions\Canc
 final class Post extends \Dmorenof\SdkRuntime\DTO
 {
     public \GoCardlessSDK\Requests\BillingRequests\ByBillingRequestId\Actions\Cancel\Post\BillingRequestsRequest $billing_requests;
-
 }

@@ -19,5 +19,4 @@ final class Notify extends \GoCardlessSDK\GoCardlessAPISDK
     {
         return self::client()->resource(\GoCardlessSDK\Resources\BillingRequests\ByBillingRequestId\Actions\Notify::class)->post($billing_request_id, $params);
     }
-
 }

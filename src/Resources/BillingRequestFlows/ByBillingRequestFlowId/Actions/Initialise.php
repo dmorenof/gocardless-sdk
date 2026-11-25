@@ -58,5 +58,4 @@ final class Initialise extends \GoCardlessSDK\Client
         $result = $this->executeArguments(self::operation(self::POST), path: ['billing_request_flow_id' => $billing_request_flow_id], parameters: $params);
         return $result;
     }
-
 }

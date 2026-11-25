@@ -7,5 +7,4 @@ namespace GoCardlessSDK\Requests\Mandates\ByMandateId\Put;
 final class ByMandateIdMandatesRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public \GoCardlessSDK\DTOs\Customer\Metadata $metadata;
-
 }

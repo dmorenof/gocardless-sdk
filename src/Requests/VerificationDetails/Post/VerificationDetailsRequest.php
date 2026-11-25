@@ -7,15 +7,15 @@ namespace GoCardlessSDK\Requests\VerificationDetails\Post;
 final class VerificationDetailsRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'address_line1',
-    'city',
-    'company_number',
-    'description',
-    'directors',
-    'links',
-    'name',
-    'postal_code',
-];
+        'address_line1',
+        'city',
+        'company_number',
+        'description',
+        'directors',
+        'links',
+        'name',
+        'postal_code',
+    ];
 
     /**
      * The first line of the company's address.

@@ -20,5 +20,4 @@ final class Institutions extends \GoCardlessSDK\GoCardlessAPISDK
     {
         return self::client()->resource(\GoCardlessSDK\Resources\BillingRequests\ByBillingRequestId\Institutions::class)->get($billing_request_id, $params);
     }
-
 }

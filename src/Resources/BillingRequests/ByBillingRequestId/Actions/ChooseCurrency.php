@@ -66,5 +66,4 @@ final class ChooseCurrency extends \GoCardlessSDK\Client
         $result = $this->executeArguments(self::operation(self::POST), path: ['billing_request_id' => $billing_request_id], parameters: $params);
         return $result;
     }
-
 }

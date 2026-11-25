@@ -18,5 +18,4 @@ final class Fallback extends \GoCardlessSDK\GoCardlessAPISDK
     {
         return self::client()->resource(\GoCardlessSDK\Resources\BillingRequests\ByBillingRequestId\Actions\Fallback::class)->post($billing_request_id, $params);
     }
-
 }

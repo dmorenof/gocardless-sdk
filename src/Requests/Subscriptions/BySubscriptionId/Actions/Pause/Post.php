@@ -7,5 +7,4 @@ namespace GoCardlessSDK\Requests\Subscriptions\BySubscriptionId\Actions\Pause;
 final class Post extends \Dmorenof\SdkRuntime\DTO
 {
     public \GoCardlessSDK\Requests\Subscriptions\BySubscriptionId\Actions\Pause\Post\PauseSubscriptionsRequest $subscriptions;
-
 }

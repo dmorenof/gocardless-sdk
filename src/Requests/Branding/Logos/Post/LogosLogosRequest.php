@@ -7,8 +7,8 @@ namespace GoCardlessSDK\Requests\Branding\Logos\Post;
 final class LogosLogosRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'image',
-];
+        'image',
+    ];
 
     /**
      * Base64 encoded string.

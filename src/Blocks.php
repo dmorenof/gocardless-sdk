@@ -40,5 +40,4 @@ final class Blocks extends \GoCardlessSDK\GoCardlessAPISDK
     {
         return self::client()->resource(\GoCardlessSDK\Resources\Blocks::class)->getByBlockId($block_id, $params);
     }
-
 }

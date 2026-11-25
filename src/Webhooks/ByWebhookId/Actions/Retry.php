@@ -16,5 +16,4 @@ final class Retry extends \GoCardlessSDK\GoCardlessAPISDK
     {
         return self::client()->resource(\GoCardlessSDK\Resources\Webhooks\ByWebhookId\Actions\Retry::class)->post($webhook_id, $params);
     }
-
 }

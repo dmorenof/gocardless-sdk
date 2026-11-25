@@ -7,13 +7,13 @@ namespace GoCardlessSDK;
 class Client extends \Dmorenof\SdkRuntime\ApiClient
 {
     protected const array SECURITY_SCHEMES = [
-    'bearerAuth' => [
-        'type' => 'http',
-        'scheme' => 'bearer',
-        'location' => null,
-        'parameterName' => null,
-    ],
-];
+        'bearerAuth' => [
+            'type' => 'http',
+            'scheme' => 'bearer',
+            'location' => null,
+            'parameterName' => null,
+        ],
+    ];
 
     private static ?self $currentConnection = null;
 

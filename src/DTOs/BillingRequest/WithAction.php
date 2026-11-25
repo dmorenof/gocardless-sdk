@@ -14,8 +14,8 @@ namespace GoCardlessSDK\DTOs\BillingRequest;
 final class WithAction extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'billing_requests',
-];
+        'billing_requests',
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

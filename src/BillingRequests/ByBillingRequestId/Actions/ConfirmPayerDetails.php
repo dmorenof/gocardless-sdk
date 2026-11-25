@@ -19,5 +19,4 @@ final class ConfirmPayerDetails extends \GoCardlessSDK\GoCardlessAPISDK
     {
         return self::client()->resource(\GoCardlessSDK\Resources\BillingRequests\ByBillingRequestId\Actions\ConfirmPayerDetails::class)->post($billing_request_id, $params);
     }
-
 }

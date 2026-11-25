@@ -36,5 +36,4 @@ final class CollectBankAccount extends \GoCardlessSDK\GoCardlessAPISDK
     {
         return self::client()->resource(\GoCardlessSDK\Resources\BillingRequests\ByBillingRequestId\Actions\CollectBankAccount::class)->post($billing_request_id, $params);
     }
-
 }

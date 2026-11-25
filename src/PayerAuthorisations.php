@@ -53,5 +53,4 @@ final class PayerAuthorisations extends \GoCardlessSDK\GoCardlessAPISDK
     {
         return self::client()->resource(\GoCardlessSDK\Resources\PayerAuthorisations::class)->putByPayerAuthorisationId($payer_authorisation_id, $params);
     }
-
 }

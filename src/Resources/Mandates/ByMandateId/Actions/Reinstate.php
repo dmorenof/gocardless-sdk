@@ -75,5 +75,4 @@ final class Reinstate extends \GoCardlessSDK\Client
         $result = $this->executeArguments(self::operation(self::POST), path: ['mandate_id' => $mandate_id], parameters: $params);
         return $result;
     }
-
 }

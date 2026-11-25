@@ -7,5 +7,4 @@ namespace GoCardlessSDK\Requests\Refunds;
 final class Post extends \Dmorenof\SdkRuntime\DTO
 {
     public \GoCardlessSDK\Requests\Refunds\Post\RefundsRefundsRequest $refunds;
-
 }

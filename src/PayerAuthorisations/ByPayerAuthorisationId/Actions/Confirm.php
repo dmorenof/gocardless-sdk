@@ -27,5 +27,4 @@ final class Confirm extends \GoCardlessSDK\GoCardlessAPISDK
     {
         return self::client()->resource(\GoCardlessSDK\Resources\PayerAuthorisations\ByPayerAuthorisationId\Actions\Confirm::class)->post($payer_authorisation_id, $params);
     }
-
 }

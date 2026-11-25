@@ -46,15 +46,15 @@ namespace GoCardlessSDK\DTOs;
 final class PayerAuthorisation extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'bank_account',
-    'created_at',
-    'customer',
-    'id',
-    'incomplete_fields',
-    'links',
-    'mandate',
-    'status',
-];
+        'bank_account',
+        'created_at',
+        'customer',
+        'id',
+        'incomplete_fields',
+        'links',
+        'mandate',
+        'status',
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

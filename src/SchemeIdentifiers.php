@@ -65,5 +65,4 @@ final class SchemeIdentifiers extends \GoCardlessSDK\GoCardlessAPISDK
     {
         return self::client()->resource(\GoCardlessSDK\Resources\SchemeIdentifiers::class)->getBySchemeIdentifierId($scheme_identifier_id, $params);
     }
-
 }

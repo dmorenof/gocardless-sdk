@@ -37,5 +37,4 @@ final class RedirectFlows extends \GoCardlessSDK\GoCardlessAPISDK
     {
         return self::client()->resource(\GoCardlessSDK\Resources\RedirectFlows::class)->getByRedirectFlowId($redirect_flow_id, $params);
     }
-
 }

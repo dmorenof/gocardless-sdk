@@ -57,5 +57,4 @@ final class PaymentAccountTransactions extends \GoCardlessSDK\Client
         $result = $this->executeArguments(self::operation(self::GET_BY_PAYMENT_ACCOUNT_TRANSACTION_ID), path: ['payment_account_transaction_id' => $payment_account_transaction_id], parameters: $params);
         return $result;
     }
-
 }

@@ -7,9 +7,9 @@ namespace GoCardlessSDK\Requests\CreditorBankAccounts\Post;
 final class BankAccountsRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'account_holder_name',
-    'links',
-];
+        'account_holder_name',
+        'links',
+    ];
 
     /**
      * Name of the account holder, as known by the bank. Usually this is the same as the name stored with the linked [creditor](https://docs.gocardless.com/docs/api-reference/creditor). This field will be transliterated, upcased and truncated to 18 characters.

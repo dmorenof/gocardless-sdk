@@ -245,5 +245,4 @@ final class CustomerBankAccounts extends \GoCardlessSDK\Client
         $result = $this->executeArguments(self::operation(self::PUT_BY_CUSTOMER_BANK_ACCOUNT_ID), path: ['customer_bank_account_id' => $customer_bank_account_id], parameters: $params);
         return $result;
     }
-
 }

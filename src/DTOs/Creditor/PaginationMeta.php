@@ -12,9 +12,9 @@ namespace GoCardlessSDK\DTOs\Creditor;
 final class PaginationMeta extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'cursors',
-    'limit',
-];
+        'cursors',
+        'limit',
+    ];
 
     public \GoCardlessSDK\DTOs\Creditor\PaginationMeta\CursorsDTO $cursors;
     /**

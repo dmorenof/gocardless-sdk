@@ -16,5 +16,4 @@ final class Institutions extends \GoCardlessSDK\GoCardlessAPISDK
     {
         return self::client()->resource(\GoCardlessSDK\Resources\Institutions::class)->get($params);
     }
-
 }

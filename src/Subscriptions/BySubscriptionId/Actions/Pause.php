@@ -46,5 +46,4 @@ final class Pause extends \GoCardlessSDK\GoCardlessAPISDK
     {
         return self::client()->resource(\GoCardlessSDK\Resources\Subscriptions\BySubscriptionId\Actions\Pause::class)->post($subscription_id, $params);
     }
-
 }

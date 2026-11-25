@@ -60,5 +60,4 @@ final class FundsAvailability extends \GoCardlessSDK\Client
         $result = $this->executeArguments(self::operation(self::GET_BY_MANDATE_ID), path: ['mandate_id' => $mandate_id], parameters: $params);
         return $result;
     }
-
 }

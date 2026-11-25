@@ -7,5 +7,4 @@ namespace GoCardlessSDK\Requests\Blocks\BlockByRef;
 final class Post extends \Dmorenof\SdkRuntime\DTO
 {
     public \GoCardlessSDK\Requests\Blocks\BlockByRef\Post\BlockByRefBlocksRequest $blocks;
-
 }

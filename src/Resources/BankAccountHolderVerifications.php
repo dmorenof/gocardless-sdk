@@ -121,5 +121,4 @@ final class BankAccountHolderVerifications extends \GoCardlessSDK\Client
         $result = $this->executeArguments(self::operation(self::GET_BY_BANK_ACCOUNT_HOLDER_VERIFICATION_ID), path: ['bank_account_holder_verification_id' => $bank_account_holder_verification_id], parameters: $params);
         return $result;
     }
-
 }

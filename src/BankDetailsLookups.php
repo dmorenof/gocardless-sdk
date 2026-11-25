@@ -39,5 +39,4 @@ final class BankDetailsLookups extends \GoCardlessSDK\GoCardlessAPISDK
     {
         return self::client()->resource(\GoCardlessSDK\Resources\BankDetailsLookups::class)->post($params);
     }
-
 }

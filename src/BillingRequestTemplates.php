@@ -47,5 +47,4 @@ final class BillingRequestTemplates extends \GoCardlessSDK\GoCardlessAPISDK
     {
         return self::client()->resource(\GoCardlessSDK\Resources\BillingRequestTemplates::class)->putByBillingRequestTemplateId($billing_request_template_id, $params);
     }
-
 }

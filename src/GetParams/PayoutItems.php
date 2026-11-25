@@ -7,29 +7,29 @@ namespace GoCardlessSDK\GetParams;
 final class PayoutItems extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'GoCardlessVersion',
-    'payout',
-];
+        'GoCardlessVersion',
+        'payout',
+    ];
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [
-        'after' => 'after',
-        'before' => 'before',
-        'include_2020_tax_cutover' => 'include_2020_tax_cutover',
-        'limit' => 'limit',
-        'payout' => 'payout',
-    ],
-    'header' => [
-        'GoCardless-Version' => 'GoCardlessVersion',
-    ],
-];
+        'path' => [],
+        'query' => [
+            'after' => 'after',
+            'before' => 'before',
+            'include_2020_tax_cutover' => 'include_2020_tax_cutover',
+            'limit' => 'limit',
+            'payout' => 'payout',
+        ],
+        'header' => [
+            'GoCardless-Version' => 'GoCardlessVersion',
+        ],
+    ];
 
     protected const array PROPERTY_MAP = [
-    'GoCardless-Version' => 'GoCardlessVersion',
-];
+        'GoCardless-Version' => 'GoCardlessVersion',
+    ];
     protected const array WIRE_PROPERTY_MAP = [
-    'GoCardlessVersion' => 'GoCardless-Version',
-];
+        'GoCardlessVersion' => 'GoCardless-Version',
+    ];
 
     public string $GoCardlessVersion;
     public ?string $after;

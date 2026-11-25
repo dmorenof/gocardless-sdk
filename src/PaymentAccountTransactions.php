@@ -16,5 +16,4 @@ final class PaymentAccountTransactions extends \GoCardlessSDK\GoCardlessAPISDK
     {
         return self::client()->resource(\GoCardlessSDK\Resources\PaymentAccountTransactions::class)->getByPaymentAccountTransactionId($payment_account_transaction_id, $params);
     }
-
 }

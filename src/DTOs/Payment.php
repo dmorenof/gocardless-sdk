@@ -14,21 +14,21 @@ namespace GoCardlessSDK\DTOs;
 final class Payment extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'amount',
-    'amount_refunded',
-    'charge_date',
-    'created_at',
-    'currency',
-    'description',
-    'fx',
-    'id',
-    'links',
-    'metadata',
-    'reference',
-    'retry_if_possible',
-    'scheme',
-    'status',
-];
+        'amount',
+        'amount_refunded',
+        'charge_date',
+        'created_at',
+        'currency',
+        'description',
+        'fx',
+        'id',
+        'links',
+        'metadata',
+        'reference',
+        'retry_if_possible',
+        'scheme',
+        'status',
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

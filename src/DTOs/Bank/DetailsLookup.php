@@ -12,11 +12,11 @@ namespace GoCardlessSDK\DTOs\Bank;
 final class DetailsLookup extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'available_debit_schemes',
-    'bank_name',
-    'bic',
-    'payer_name_verification_result',
-];
+        'available_debit_schemes',
+        'bank_name',
+        'bic',
+        'payer_name_verification_result',
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

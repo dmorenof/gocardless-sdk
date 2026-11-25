@@ -7,22 +7,22 @@ namespace GoCardlessSDK\Requests\BillingRequests\ByBillingRequestId\Actions\Coll
 final class RequestsCustomerRequest extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'company_name' => [
-        'maxLength' => 255,
-    ],
-    'email' => [
-        'maxLength' => 255,
-    ],
-    'family_name' => [
-        'maxLength' => 255,
-    ],
-    'given_name' => [
-        'maxLength' => 255,
-    ],
-    'phone_number' => [
-        'maxLength' => 30,
-    ],
-];
+        'company_name' => [
+            'maxLength' => 255,
+        ],
+        'email' => [
+            'maxLength' => 255,
+        ],
+        'family_name' => [
+            'maxLength' => 255,
+        ],
+        'given_name' => [
+            'maxLength' => 255,
+        ],
+        'phone_number' => [
+            'maxLength' => 30,
+        ],
+    ];
 
     /**
      * Customer's company name. Required unless a `given_name` and `family_name` are provided. For Canadian customers, the use of a `company_name` value will mean that any mandate created from this customer will be considered to be a "Business PAD" (otherwise, any mandate will be considered to be a "Personal PAD").

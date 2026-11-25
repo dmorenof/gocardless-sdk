@@ -7,5 +7,4 @@ namespace GoCardlessSDK\Requests\Refunds\ByRefundId;
 final class Put extends \Dmorenof\SdkRuntime\DTO
 {
     public \GoCardlessSDK\Requests\Refunds\ByRefundId\Put\ByRefundIdRefundsRequest $refunds;
-
 }

@@ -31,5 +31,4 @@ final class Exports extends \GoCardlessSDK\GoCardlessAPISDK
     {
         return self::client()->resource(\GoCardlessSDK\Resources\Exports::class)->getByExportId($export_id, $params);
     }
-
 }

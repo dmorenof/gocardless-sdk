@@ -7,5 +7,4 @@ namespace GoCardlessSDK\Requests\Creditors\ByCreditorId;
 final class Put extends \Dmorenof\SdkRuntime\DTO
 {
     public \GoCardlessSDK\Requests\Creditors\ByCreditorId\Put\ByCreditorIdCreditorsRequest $creditors;
-
 }

@@ -67,5 +67,4 @@ final class Retry extends \GoCardlessSDK\Client
         $result = $this->executeArguments(self::operation(self::POST), path: ['payment_id' => $payment_id], parameters: $params);
         return $result;
     }
-
 }

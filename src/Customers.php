@@ -68,5 +68,4 @@ final class Customers extends \GoCardlessSDK\GoCardlessAPISDK
     {
         return self::client()->resource(\GoCardlessSDK\Resources\Customers::class)->putByCustomerId($customer_id, $params);
     }
-
 }

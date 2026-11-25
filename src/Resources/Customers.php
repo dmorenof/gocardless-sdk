@@ -298,5 +298,4 @@ final class Customers extends \GoCardlessSDK\Client
         $result = $this->executeArguments(self::operation(self::PUT_BY_CUSTOMER_ID), path: ['customer_id' => $customer_id], parameters: $params);
         return $result;
     }
-
 }

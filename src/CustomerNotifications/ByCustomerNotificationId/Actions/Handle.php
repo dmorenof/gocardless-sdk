@@ -21,5 +21,4 @@ final class Handle extends \GoCardlessSDK\GoCardlessAPISDK
     {
         return self::client()->resource(\GoCardlessSDK\Resources\CustomerNotifications\ByCustomerNotificationId\Actions\Handle::class)->post($customer_notification_id, $params);
     }
-
 }

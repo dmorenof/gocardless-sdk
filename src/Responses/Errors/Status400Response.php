@@ -7,8 +7,8 @@ namespace GoCardlessSDK\Responses\Errors;
 final class Status400Response extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'error',
-];
+        'error',
+    ];
 
     public \GoCardlessSDK\DTOs\Error $error;
 

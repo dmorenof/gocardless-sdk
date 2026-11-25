@@ -7,25 +7,25 @@ namespace GoCardlessSDK\Requests\MandatePdfs\Post;
 final class MandatePdfsRequest extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'address_line1' => [
-        'maxLength' => 255,
-    ],
-    'address_line2' => [
-        'maxLength' => 255,
-    ],
-    'address_line3' => [
-        'maxLength' => 255,
-    ],
-    'city' => [
-        'maxLength' => 255,
-    ],
-    'postal_code' => [
-        'maxLength' => 20,
-    ],
-    'region' => [
-        'maxLength' => 255,
-    ],
-];
+        'address_line1' => [
+            'maxLength' => 255,
+        ],
+        'address_line2' => [
+            'maxLength' => 255,
+        ],
+        'address_line3' => [
+            'maxLength' => 255,
+        ],
+        'city' => [
+            'maxLength' => 255,
+        ],
+        'postal_code' => [
+            'maxLength' => 20,
+        ],
+        'region' => [
+            'maxLength' => 255,
+        ],
+    ];
 
     /**
      * Name of the account holder, as known by the bank. Usually this matches the name of the [customer](https://docs.gocardless.com/docs/api-reference/customer). This field cannot exceed 18 characters.

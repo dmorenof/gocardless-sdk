@@ -61,5 +61,4 @@ final class Disable extends \GoCardlessSDK\Client
         $result = $this->executeArguments(self::operation(self::POST), path: ['creditor_bank_account_id' => $creditor_bank_account_id], parameters: $params);
         return $result;
     }
-
 }

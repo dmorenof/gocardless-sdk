@@ -51,5 +51,4 @@ final class Creditors extends \GoCardlessSDK\GoCardlessAPISDK
     {
         return self::client()->resource(\GoCardlessSDK\Resources\Creditors::class)->putByCreditorId($creditor_id, $params);
     }
-
 }

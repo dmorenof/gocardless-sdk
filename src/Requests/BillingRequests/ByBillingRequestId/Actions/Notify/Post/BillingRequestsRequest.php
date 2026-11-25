@@ -7,8 +7,8 @@ namespace GoCardlessSDK\Requests\BillingRequests\ByBillingRequestId\Actions\Noti
 final class BillingRequestsRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'notification_type',
-];
+        'notification_type',
+    ];
 
     public \GoCardlessSDK\Enums\BillingRequest\NotificationType $notification_type;
     /**

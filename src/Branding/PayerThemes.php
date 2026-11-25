@@ -18,5 +18,4 @@ final class PayerThemes extends \GoCardlessSDK\GoCardlessAPISDK
     {
         return self::client()->resource(\GoCardlessSDK\Resources\Branding\PayerThemes::class)->post($params);
     }
-
 }

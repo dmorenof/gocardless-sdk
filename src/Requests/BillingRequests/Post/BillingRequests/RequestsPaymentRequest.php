@@ -7,11 +7,11 @@ namespace GoCardlessSDK\Requests\BillingRequests\Post\BillingRequests;
 final class RequestsPaymentRequest extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'reference' => [
-        'minLength' => 1,
-        'maxLength' => 18,
-    ],
-];
+        'reference' => [
+            'minLength' => 1,
+            'maxLength' => 18,
+        ],
+    ];
 
     public \GoCardlessSDK\DTOs\BillingRequest\AnyOfAmountStringable $amount;
     public \GoCardlessSDK\DTOs\BillingRequest\OneOfAppFeeStringable $app_fee;

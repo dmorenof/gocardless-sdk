@@ -7,9 +7,9 @@ namespace GoCardlessSDK\Requests\BankAccountHolderVerifications\Post;
 final class HolderVerificationsRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'links',
-    'type',
-];
+        'links',
+        'type',
+    ];
 
     public \GoCardlessSDK\Requests\BankAccountHolderVerifications\Post\BankAccountHolderVerifications\VerificationsLinksRequest $links;
     /**

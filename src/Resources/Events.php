@@ -113,5 +113,4 @@ final class Events extends \GoCardlessSDK\Client
         $result = $this->executeArguments(self::operation(self::GET_BY_EVENT_ID), path: ['event_id' => $event_id], parameters: $params);
         return $result;
     }
-
 }

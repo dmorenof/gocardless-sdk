@@ -12,9 +12,9 @@ namespace GoCardlessSDK\DTOs\InstalmentSchedule;
 final class Links extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'customer',
-    'mandate',
-];
+        'customer',
+        'mandate',
+    ];
 
     /**
      * ID of the associated [customer](https://docs.gocardless.com/docs/api-reference/customer).

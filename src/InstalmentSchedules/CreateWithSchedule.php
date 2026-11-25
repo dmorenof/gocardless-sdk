@@ -25,5 +25,4 @@ final class CreateWithSchedule extends \GoCardlessSDK\GoCardlessAPISDK
     {
         return self::client()->resource(\GoCardlessSDK\Resources\InstalmentSchedules\CreateWithSchedule::class)->post($params);
     }
-
 }

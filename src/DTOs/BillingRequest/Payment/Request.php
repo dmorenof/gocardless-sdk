@@ -12,11 +12,11 @@ namespace GoCardlessSDK\DTOs\BillingRequest\Payment;
 final class Request extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'reference' => [
-        'minLength' => 1,
-        'maxLength' => 18,
-    ],
-];
+        'reference' => [
+            'minLength' => 1,
+            'maxLength' => 18,
+        ],
+    ];
 
     /**
      * Amount in minor unit (e.g. pence in GBP, cents in EUR).

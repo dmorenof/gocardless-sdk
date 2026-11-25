@@ -27,5 +27,4 @@ final class TaxRates extends \GoCardlessSDK\GoCardlessAPISDK
     {
         return self::client()->resource(\GoCardlessSDK\Resources\TaxRates::class)->getByTaxRateId($tax_rate_id, $params);
     }
-
 }

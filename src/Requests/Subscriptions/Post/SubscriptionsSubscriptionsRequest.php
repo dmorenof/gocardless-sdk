@@ -7,11 +7,11 @@ namespace GoCardlessSDK\Requests\Subscriptions\Post;
 final class SubscriptionsSubscriptionsRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'amount',
-    'currency',
-    'interval_unit',
-    'links',
-];
+        'amount',
+        'currency',
+        'interval_unit',
+        'links',
+    ];
 
     public \GoCardlessSDK\DTOs\Subscription\AnyOfAmountStringable $amount;
     public \GoCardlessSDK\DTOs\Subscription\OneOfAppFeeStringable $app_fee;

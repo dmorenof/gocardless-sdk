@@ -35,12 +35,12 @@ namespace GoCardlessSDK\DTOs\Mandate;
 final class Import extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'created_at',
-    'id',
-    'links',
-    'scheme',
-    'status',
-];
+        'created_at',
+        'id',
+        'links',
+        'scheme',
+        'status',
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

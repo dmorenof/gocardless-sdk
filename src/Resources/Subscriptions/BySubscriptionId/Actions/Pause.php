@@ -93,5 +93,4 @@ final class Pause extends \GoCardlessSDK\Client
         $result = $this->executeArguments(self::operation(self::POST), path: ['subscription_id' => $subscription_id], parameters: $params);
         return $result;
     }
-
 }

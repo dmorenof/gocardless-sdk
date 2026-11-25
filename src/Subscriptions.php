@@ -66,5 +66,4 @@ final class Subscriptions extends \GoCardlessSDK\GoCardlessAPISDK
     {
         return self::client()->resource(\GoCardlessSDK\Resources\Subscriptions::class)->putBySubscriptionId($subscription_id, $params);
     }
-
 }

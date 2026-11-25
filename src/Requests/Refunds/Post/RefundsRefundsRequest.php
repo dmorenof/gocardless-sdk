@@ -7,9 +7,9 @@ namespace GoCardlessSDK\Requests\Refunds\Post;
 final class RefundsRefundsRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'amount',
-    'links',
-];
+        'amount',
+        'links',
+    ];
 
     public \GoCardlessSDK\DTOs\Refund\AnyOfAmountStringable $amount;
     public \GoCardlessSDK\Requests\Refunds\Post\Refunds\RefundsLinksRequest $links;

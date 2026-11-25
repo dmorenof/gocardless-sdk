@@ -7,5 +7,4 @@ namespace GoCardlessSDK\Requests\ScenarioSimulators\ByScenarioSimulatorId\Action
 final class ScenarioSimulatorsRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public \GoCardlessSDK\Requests\ScenarioSimulators\ByScenarioSimulatorId\Actions\Run\Post\ScenarioSimulators\SimulatorsLinksRequest $links;
-
 }
